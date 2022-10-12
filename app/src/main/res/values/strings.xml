@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QUIZ</string>
+
+    <string name="Q1">Does Guertena art gallery feature paintings and statues?</string>
+    <string name="Q2">Does exhibit \"Embodiment of Spirit\" represent a rose?</string>
+    <string name="Q3">Is \"The Lady in Red\" the only color variation of the painting in the real world?</string>
+    <string name="Q4">\"As it wilts, so do you\" is a description of one of the exhibits</string>
+    <string name="Q5">Does \"Your Dark Figure\" depict a cat?</string>
+
+    <string name="button_true">Yes</string>
+    <string name="button_false">No</string>
+    <string name="button_next">Next</string>
+
+    <string name="correct_answer">Correct answer</string>
+    <string name="incorrect_answer">Incorrect answer</string>
+</resources>
