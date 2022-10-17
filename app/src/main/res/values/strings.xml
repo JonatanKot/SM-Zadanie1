@@ -13,4 +13,6 @@
 
     <string name="correct_answer">Correct answer</string>
     <string name="incorrect_answer">Incorrect answer</string>
+
+    <string name="answer_was_shown">Answer was shown already</string>
 </resources>

@@ -6,14 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
-
+    tools:context=".PromptActivity">
 
     <TextView
-        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:text="Do you want to see the hint?"></TextView>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -21,33 +19,23 @@
         android:orientation="horizontal">
 
     <Button
-        android:id="@+id/button_true"
+        android:id="@+id/prompt_hint_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_true"
-        ></Button>
+        android:text="Show hint"></Button>
 
     <Button
-        android:id="@+id/button_false"
+        android:id="@+id/prompt_return_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_false"
-        ></Button>
+        android:text="Return"></Button>
 
-        </LinearLayout>
+    </LinearLayout>
 
-    <Button
-    android:id="@+id/button_next"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/button_next"
-        ></Button>
-
-    <Button
-        android:id="@+id/button_hint"
+    <TextView
+        android:id="@+id/answer_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hint"
-        ></Button>
+        android:padding="30dp"></TextView>
 
 </LinearLayout>
