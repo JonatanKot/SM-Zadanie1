@@ -1,0 +1,54 @@
+Uruchomienie:
+
+2022-10-12 14:57:16.942 8266-8266/com.example.quiz D/Zadanie: onCreate
+2022-10-12 14:57:16.993 8266-8266/com.example.quiz D/Zadanie: onStart
+2022-10-12 14:57:16.994 8266-8266/com.example.quiz D/Zadanie: onResume
+
+Przycisk home:
+
+2022-10-12 14:57:57.261 8266-8266/com.example.quiz D/Zadanie: onPause
+2022-10-12 14:57:57.689 8266-8266/com.example.quiz D/Zadanie: onStop
+
+Ponowne wejście z przycisku overview:
+
+2022-10-12 14:59:04.296 8266-8266/com.example.quiz D/Zadanie: onStart
+2022-10-12 14:59:04.297 8266-8266/com.example.quiz D/Zadanie: onResume
+
+Przycisk back:
+
+2022-10-12 14:59:48.436 8266-8266/com.example.quiz D/Zadanie: onPause
+2022-10-12 14:59:48.869 8266-8266/com.example.quiz D/Zadanie: onStop
+
+Usunięcie z przycisku overwiev po wyjściu z aplikacji:
+
+2022-10-12 15:01:08.365 8266-8266/com.example.quiz D/Zadanie: onDestroy
+
+Usunięcie z przycisku overview w trakcie wykonywania aplikacji:
+
+2022-10-12 15:09:10.422 9024-9024/com.example.quiz D/Zadanie: onPause
+2022-10-12 15:09:10.425 9024-9024/com.example.quiz D/Zadanie: onStop
+2022-10-12 15:09:10.520 9024-9024/? D/Zadanie: onDestroy
+
+Rotacja telefonu:
+
+2022-10-12 15:12:17.436 9106-9106/com.example.quiz D/Zadanie: onPause
+2022-10-12 15:12:17.438 9106-9106/com.example.quiz D/Zadanie: onStop
+2022-10-12 15:12:17.438 9106-9106/com.example.quiz D/Zadanie: onDestroy
+2022-10-12 15:12:17.453 9106-9106/com.example.quiz D/Zadanie: onCreate
+2022-10-12 15:12:17.472 9106-9106/com.example.quiz D/Zadanie: onStart
+2022-10-12 15:12:17.473 9106-9106/com.example.quiz D/Zadanie: onResume
+
+
+Rotacja telefonu z onSaveInstance:
+
+2022-10-12 15:28:57.038 9551-9551/com.example.quiz D/Zadanie: onPause
+2022-10-12 15:28:57.039 9551-9551/com.example.quiz D/Zadanie: onStop
+2022-10-12 15:28:57.040 9551-9551/com.example.quiz D/Zadanie: onSaveInstanceState
+2022-10-12 15:28:57.041 9551-9551/com.example.quiz D/Zadanie: onDestroy
+2022-10-12 15:28:57.057 9551-9551/com.example.quiz D/Zadanie: onCreate
+2022-10-12 15:28:57.095 9551-9551/com.example.quiz D/Zadanie: onStart
+2022-10-12 15:28:57.096 9551-9551/com.example.quiz D/Zadanie: onResume
+
+Przy onSaveInstance po rotacji wyświetla się ostatnio widoczne menu
+
+We wszystkich przypadkach funkcja onDestroy nie zawsze była wywoływana
